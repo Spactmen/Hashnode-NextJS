@@ -1,0 +1,1 @@
+self.__BUILD_MANIFEST = {__rewrites:{beforeFiles:[],afterFiles:[],fallback:[]},"/_error":["static\u002Fchunks\u002Fpages\u002F_error.js"],"/onboard/createaccount":["static\u002Fchunks\u002Fpages\u002Fonboard\u002Fcreateaccount.js"],sortedPages:["\u002F_app","\u002F_error","\u002Fonboard\u002Fcreateaccount"]};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
