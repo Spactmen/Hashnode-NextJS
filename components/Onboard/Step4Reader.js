@@ -12,7 +12,7 @@ import Java from '../../public/Java.jpeg'
 import Nodejs from '../../public/Nodejs.jpeg'
 import Python from '../../public/Python.jpeg'
 import Reactjs from '../../public/Reactjs.jpeg'
-import php from '../../public/Php.jpeg'
+import php from     '../../public/Php.jpeg'
 
 import Image from 'next/image'
 
