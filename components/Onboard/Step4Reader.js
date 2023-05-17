@@ -12,7 +12,7 @@ import Java from '../../public/Java.jpeg'
 import Nodejs from '../../public/Nodejs.jpeg'
 import Python from '../../public/Python.jpeg'
 import Reactjs from '../../public/Reactjs.jpeg'
-import php from '../../public/php.jpeg'
+import php from '../../public/Php.jpeg'
 
 import Image from 'next/image'
 
@@ -76,7 +76,7 @@ const Step4Reader = () => {
 
   // console.log(isChecked)
   const handleTagFilter = () => {
-    
+
   }
 
 
