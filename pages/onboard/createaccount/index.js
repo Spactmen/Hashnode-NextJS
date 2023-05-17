@@ -42,11 +42,11 @@ const index = () => {
     },
     {
       head: "Step 4",
-      bio: "Reader step"
+      bio: "Choose your tags"
     },
     {
-      head: "Step 5",
-      bio: "Hashnode 5"
+      head: "Final Step",
+      bio: "We think you'll love these blogs"
     }
   ]
 

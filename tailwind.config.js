@@ -26,7 +26,7 @@ module.exports = {
         'blue':'#2463EB',
         'light-blue' : '#3B8BF6',
         'light-violet':'#1E40AF',
-        'light-green' :'#EFFDF4', //rgb(239, 253, 244)
+        'light-green' :'#EFFDF4', //rgb(240, 253, 244)
         'transparent-blue' :'#EFF6FF',
         'white': '#ffffff',
         'light-cyan':'#DBEAFE', //rgb(219,234,254)
