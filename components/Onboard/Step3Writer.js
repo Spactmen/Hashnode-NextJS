@@ -23,7 +23,7 @@ const Step3Writer = ({ step, steps, onStepChange }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(radioOptions)
+    // console.log(radioOptions)
     const updatedSteps = {
       Step1: false,
       Step2: false,

@@ -47,8 +47,8 @@ const Step4Writer = ({ step, steps, onStepChange }) => {
     }
   }
 
-  console.log(isLoading)
-  console.log(subDomain.length > 0)
+  // console.log(isLoading)
+  // console.log(subDomain.length > 0)
   const handleSubmit = (e) => {
     e.preventDefault()
     const updatedSteps = {
@@ -131,7 +131,7 @@ const Step4Writer = ({ step, steps, onStepChange }) => {
 
       </section>
 
-      <div className='mt-8 py-4'>
+      <div className='sticky bottom-0 bg-grey mt-8 py-4'>
         <div className='flex justify-between items-center'>
           <div className='w-[34%] md:w-[150px]'>
             <Button type="button" onClick={handleStepsState} intent="secondary" size="small" roundness="pill" fontWeight="xl" responsiveClasses="">Back</Button>

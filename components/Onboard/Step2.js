@@ -21,8 +21,8 @@ const Step2 = ({ step, steps, onStepChange,getReason }) => {
     setIsReaderClicked(true);
     setIsWriterClicked(false);
   };
-  console.log(isWriterClicked)
-  console.log(isReaderClicked)
+  // console.log(isWriterClicked)
+  // console.log(isReaderClicked)
 
   const handleSubmit = (e) => {
     e.preventDefault()

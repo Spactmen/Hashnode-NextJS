@@ -61,10 +61,7 @@ const Step1 = ({ step, steps, onStepChange }) => {
     }
 
     const onSubmit = (values) => {
-        // console.log(values)
-        // setUserData(values)
-        // addUserData(values)
-        // console.log(onStepChange.handle)
+
         const updatedSteps = {
             Step1: step === "Step1" ? false : true,
             Step2: true,

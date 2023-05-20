@@ -85,7 +85,6 @@ const index = () => {
     }
   },[reason])
 
-  console.log(stepData,"hi")
 
 
   const onStepChange = (updatedSteps) => {
@@ -95,7 +94,7 @@ const index = () => {
   const getReason = (reason) => {
     setReason(reason)
   }
-  console.log(reason)
+  // console.log(reason) 
   // console.log(steps)
 
   return (
