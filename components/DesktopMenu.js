@@ -15,9 +15,7 @@ import { useEffect, useState } from 'react'
 
 
 const DesktopMenu = () => {
-
     const router = useRouter()
-
 
     const handleMenuClick = () => {
         router.push(`/explore?source=explore_open`)

@@ -84,7 +84,7 @@ export default function Home() {
             <div className='relative z-20 flex justify-between items-center border-b border-grey px-5 pt-3 font-medium text-light-grey'>
               <div className='flex items-center overflow-x-auto max-w-full' style={{ overflow: "initial" }}>
                 <a
-                  className={`relative font-primary flex items-center flex-nowrap  py-3 px-2 mr-2 cursor-pointer rounded-tl-lg rounded-tr-lg hover:bg-common-grey ${personalized ? 'text-dark-blue border-b-2 border-dark-blue font-semibold' : ' font-medium'}`}
+                  className={`relative font-primary flex items-center flex-nowrap  py-3 px-2 mr-2 cursor-pointer rounded-tl-lg rounded-tr-lg hover:bg-common-grey font-semibold ${personalized ? 'text-dark-blue border-b-2 border-dark-blue ' : ' '}`}
                   onClick={() => handleTabClick('personalized')}>
                   {/* <object data="personalizedsvg.svg" type="image/svg+xml" ></object> */}
 
@@ -92,13 +92,13 @@ export default function Home() {
                   <span className='whitespace-nowrap'>Personalized</span>
                 </a>
                 <a
-                  className={`relative font-primary flex items-center  flex-nowrap  py-3 px-2 mr-2 cursor-pointer rounded-tl-lg rounded-tr-lg hover:bg-common-grey ${following ? 'text-dark-blue border-b-2 border-dark-blue font-semibold' : ' text-text-light-grey font-medium'}`}
+                  className={`relative font-primary flex items-center  flex-nowrap  py-3 px-2 mr-2 cursor-pointer rounded-tl-lg rounded-tr-lg hover:bg-common-grey font-semibold ${following ? 'text-dark-blue border-b-2 border-dark-blue ' : ' text-text-light-grey '}`}
                   onClick={() => handleTabClick('following')}>
                   <Image src={followingsvg} className='mr-2' alt="svg"></Image>
                   <span className='whitespace-nowrap'>Following</span>
                 </a>
                 <a
-                  className={`relative font-primary flex items-center  flex-nowrap  py-3 px-2 mr-2 cursor-pointer rounded-tl-lg rounded-tr-lg hover:bg-common-grey ${featured ? 'text-dark-blue border-b-2 border-dark-blue font-semibold' : ' text-text-light-grey font-medium'}`}
+                  className={`relative font-primary flex items-center  flex-nowrap  py-3 px-2 mr-2 cursor-pointer rounded-tl-lg rounded-tr-lg hover:bg-common-grey font-semibold ${featured ? 'text-dark-blue border-b-2 border-dark-blue ' : ' text-text-light-grey '}`}
                   onClick={() => handleTabClick('featured')}>
                   <Image src={featuredsvg} className='mr-2' alt="svg"></Image>
                   <span className='whitespace-nowrap'>Featured</span>
