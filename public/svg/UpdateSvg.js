@@ -8,8 +8,9 @@ function SvgComponent(props) {
       className="css-edyqgg"
       fill="none"
       viewBox="0 0 18 18"
-      width={18}
-      height={18}
+      width={24}
+      height={24}
+      stroke="currentColor"
       {...props}
     >
       <path

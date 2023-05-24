@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Button from '../Button'
+import Button from './Button'
 import InputGroup from '../InputGroup'
 
 import GlobeSvg from '../../public/svg/GlobeSvg'

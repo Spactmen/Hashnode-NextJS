@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useFormik } from 'formik';
 import { step3schema } from "../../schemas/step3schema"
-import Button from '../Button';
+import Button from './Button';
 import CustomErrorMessage from './CustomErrorMessage';
 
 const Step3Reader = ({ step, steps, onStepChange }) => {

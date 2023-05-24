@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Image from 'next/image'
 import Navbar from '../../components/Navbar'
 import LoginButton from '../../components/Onboard/LoginButton'
-import Button from '../../components/Button'
+import Button from '../../components/Onboard/Button'
 import InputGroup from '../../components/InputGroup'
 
 

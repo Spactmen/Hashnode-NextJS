@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import PenSvg from "../../public/svg/PenSvg"
 import BookSvg from "../../public/svg/BookSvg"
-import Button from '../Button'
+import Button from './Button'
 // import ErrorMessage from './CustomErrorMessage'
 
 const Step2 = ({ step, steps, onStepChange,getReason }) => {

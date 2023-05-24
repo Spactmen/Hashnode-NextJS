@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 import { useRouter } from 'next/router';
 
-import Button from '../Button'
+import Button from './Button'
 import pic1 from "../../public/pic1.jpeg"
 import pic2 from "../../public/pic2.jpeg"
 import pic3 from "../../public/pic3.jpeg"

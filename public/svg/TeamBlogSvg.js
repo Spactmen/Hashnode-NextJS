@@ -4,7 +4,6 @@ function SvgComponent(props) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="css-4v3791"
       viewBox="0 0 640 512"
       width={20}
       height={20}

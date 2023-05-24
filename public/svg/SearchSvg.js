@@ -6,9 +6,10 @@ function SvgComponent(props) {
       className="css-ythetd"
       viewBox="0 0 24 24"
       fill="none"
+      stroke="currentColor"
       xmlns="http://www.w3.org/2000/svg"
-      width= {16}
-      height={16}
+      width= {props.width ? 24 : 20}
+      height={props.width ? 24 : 20}
       {...props}
     >
       <path

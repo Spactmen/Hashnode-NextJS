@@ -19,6 +19,8 @@ module.exports = {
       borderColor: {
         'blue': '#2463EB',
         'grey': 'rgb(226 232 240 / 80%)',
+        'light-grey' :'rgb(203,213,225)',
+        'grey-2' : 'rgb(232,236,240',
         // 'light-grey' : 'rgb(229,236,242)',
         'grey-dark': 'rgb(248 250 252 / 1)',
         'green': '#17A34B',  //rgb(23, 163, 75)
@@ -33,6 +35,7 @@ module.exports = {
         'light-cyan': '#DBEAFE', //rgb(219,234,254)
         // 'medium-grey': 'rgb(51 65 85 / 1)',
         'grey': 'rgb(248 250 252 / 1)',
+        'dark-grey' : 'rgb(241,245,249)',
         'common-grey': 'rgb(226 232 240 / 80%)',
       },
       colors: {

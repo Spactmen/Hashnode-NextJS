@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useRouter } from 'next/router';
 
-import Button from '../Button'
+import Button from './Button'
 
 import Image from 'next/image'
 import Tags from './Tags'

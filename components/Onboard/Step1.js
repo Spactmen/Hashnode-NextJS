@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useFormik } from 'formik'
 import Navbar from '../Navbar'
-import Button from '../Button'
+import Button from './Button'
 import InputGroup from '../InputGroup'
 import CustomErrorMessage from './CustomErrorMessage'
 

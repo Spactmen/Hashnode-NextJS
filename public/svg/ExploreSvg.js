@@ -6,8 +6,8 @@ function SvgComponent(props) {
       xmlns="http://www.w3.org/2000/svg"
       className="css-1vmmox"
       viewBox="0 0 512 512"
-      width={20}
-      height={20}
+      width={props.width ? 24 : 20}
+      height={props.width ? 24 : 20}
       {...props}
     >
       <path
