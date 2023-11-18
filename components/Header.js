@@ -250,7 +250,7 @@ const Header = ({ showMobileMenu, setShowMobileMenu }) => {
 
                             {/*  profile*/}
                             <div className='w-10 h-10'>
-                                <button onclick={window.href="https://hashnode-nextjs-clone.vercel.app/onboard/"}>
+                                <button onclick={window.href="/onboard/"}>
                                     <Image src={profilemain} className='rounded-full'></Image>
                                 </button>
                             </div>
